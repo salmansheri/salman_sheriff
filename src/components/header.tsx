@@ -22,7 +22,7 @@ const navLinks = [
 ];
 export const Header = () => {
   return (
-    <header className="flex justify-center items-center relative top-3">
+    <header className="flex justify-center items-center fixed w-full top-3">
       <nav className="flex gap-1 p-0.5 border items-center border-white/15 rounded-full bg-white/10 backdrop-blur ">
         {navLinks.map((link) => (
           <a className="nav-item" href={link.href} key={link.id}>
